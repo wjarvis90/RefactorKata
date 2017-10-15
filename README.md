@@ -1,5 +1,6 @@
 # RefactorKata
-A Kata to learn Refactoring Skills
+
+###### A Kata to learn Refactoring Skills
 
 ## Refactor Kata Exercise
 
