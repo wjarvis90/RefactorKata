@@ -26,13 +26,8 @@ namespace RefactorKata
             
             foreach (var product in products)
             {
-                Console.WriteLine(product.name);
+                Console.WriteLine(product.Name);
             }
         }
-    }
-    public class Product
-    {
-        public string name;
-        public string Name { get { return name; } set { name = value; } }
     }
 }
