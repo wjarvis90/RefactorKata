@@ -14,7 +14,7 @@ namespace RefactorKata
             cmd.CommandText = "select * from Products";
             
             var reader = cmd.ExecuteReader();
-            List<Product> products = new List<Product>();
+            var products = new List<Product>();
 
             //TODO: Replace with Dapper
             while (reader.Read())
