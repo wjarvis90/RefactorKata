@@ -8,10 +8,9 @@ namespace RefactorKata
     {
         static void Main(string[] args)
         {
-            //This is intentionally bad : (  Let's Refactor!
             var conn = new SqlConnection("Server=.;Database=myDataBase;User Id=myUsername;Password = myPassword;");
 
-            System.Data.SqlClient.SqlCommand cmd = conn.CreateCommand();
+            var cmd = conn.CreateCommand();
             cmd.CommandText = "select * from Products";
             /*
              * cmd.CommandText = "Select * from Invoices";
